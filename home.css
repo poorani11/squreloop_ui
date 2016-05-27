@@ -8,8 +8,24 @@ ul li {
    margin: 0 -35px 0 0;
    padding: 0;
 }
-ul li:hover { border-bottom: 38px solid rgb(186, 186, 186); }
-li:active{ border-bottom: 38px solid rgb(186, 186, 186); }
+ul li:hover {
+ border-bottom: 38px solid rgb(186, 186, 186); 
+}
+li.active{
+    border-bottom: 38px solid rgb(186, 186, 186);
+   border-left: 38px solid transparent;
+   border-right: 38px solid transparent;
+   height: 0;
+   display: inline-block;
+   margin: 0 -35px 0 0;
+   padding: 0;
+}
+li.active > a{
+    color:black;
+}
+   #text:hover{
+    color: white;
+   }
 ul li a {
     color: #fff;
     display: block;
