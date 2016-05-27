@@ -40,3 +40,10 @@ ul li a {
 #text{
     text-decoration: none;
 }
+.container { margin-top: 30px; }
+
+.right-to-left { margin-top: 30px; 
+ text-align: right;}
+
+.right-to-left li { float: right;
+display: inline-block; float: none; }
