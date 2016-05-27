@@ -1,1 +1,23 @@
-home.css
+ul { margin-top: 20px;}
+ul li {
+   border-bottom: 38px solid #575757;
+   border-left: 38px solid transparent;
+   border-right: 38px solid transparent;
+   height: 0;
+   display: inline-block;
+   margin: 0 -35px 0 0;
+   padding: 0;
+}
+ul li:hover { border-bottom: 38px solid rgb(186, 186, 186); }
+li:active{ border-bottom: 38px solid rgb(186, 186, 186); }
+ul li a {
+    color: #fff;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+}
+#text{
+    text-decoration: none;
+}
