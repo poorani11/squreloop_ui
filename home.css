@@ -8,6 +8,9 @@ ul li {
    margin: 0 -35px 0 0;
    padding: 0;
 }
+#icon > i{
+    color: white;
+}
 ul li:hover {
  border-bottom: 38px solid rgb(186, 186, 186); 
 }
